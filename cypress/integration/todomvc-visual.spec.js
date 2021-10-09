@@ -7,7 +7,7 @@ describe('visual-validation', () => {
 
     beforeEach(() => cy.eyesOpen({
         appName: 'TODO MVC', 
-        batchName: 'MY TODO MVC',
+        batchName: 'MY TODO MVC',   /// redo 
         browser: [
             {name: 'chrome', width: 1024, height:768},
             {name: 'chrome', width: 800, height:600},
